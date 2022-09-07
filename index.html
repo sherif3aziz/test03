@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Sorting Algorithms</h1>
+        <div class="1stdiv"><h3>Enter how many numbers you would like to sort</h3> <input type="number" id="numberinput" class="inputs"></div><br>
+        <button type="submit" id="submitbtn" class="submition">Generate Random Numbers</button><button id="manual" class="submition">Enter Numbers Manually</button><br>
+            <div style="height: 3rem;"><h3>Select a sorting algorithm</h3></div>
+        <div class="buttonsContainer">
+            <button class="sortingBtns" id="insertion">Insertion Sort</button>
+            <button class="sortingBtns" id="merge">Merge Sort</button>
+            <button class="sortingBtns" id="selection">Selection Sort</button>
+            <button class="sortingBtns" id="radix">Radix Sort</button>
+            <button class="sortingBtns" id="quick">Quick Sort</button>
+            <button class="sortingBtns" id="counting">Counting Sort</button>
+            <button class="sortingBtns" id="heap">Heap Sort</button>
+        </div>
+        <div>
+            <h3>Compare between two algorithms</h3>
+        <div id="selectionDiv">
+            <select name="algo1" id="algo1">
+                <option value="Insertion">Insertion Sort</option>
+                <option value="Merge">Merge Sort</option>
+                <option value="Selection">Selection Sort</option>
+                <option value="Radix">Radix Sort</option>
+                <option value="Quick">Quick Sort</option>
+                <option value="Counting">Counting Sort</option>
+                <option value="Heap">Heap Sort</option>
+              </select>
+              <select name="algo2" id="algo2">
+                <option value="Insertion" id="InsertionOption">Insertion Sort</option>
+                <option value="Merge" selected id="MergeOption">Merge Sort</option>
+                <option value="Selection" id="SelectionOption">Selection Sort</option>
+                <option value="Radix" id="RadixOption">Radix Sort</option>
+                <option value="Quick" id="QuickOption">Quick Sort</option>
+                <option value="Counting" id="CountingOption">Counting Sort</option>
+                <option value="Heap" id="HeapOption">Heap Sort</option>
+              </select>
+              <button id="btnOk">Ok</button>
+        </div>
+        </div>
+        <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.2/chart.min.js" 
+    integrity="sha512-tMabqarPtykgDtdtSqCL3uLVM0gS1ZkUAVhRFu1vSEFgvB73niFQWJuvviDyBGBH22Lcau4rHB5p2K2T0Xvr6Q==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+    </body>
+</html>

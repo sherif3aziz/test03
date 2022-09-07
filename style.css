@@ -1,0 +1,104 @@
+h1 {
+	font-family: "Arial";
+	font-size: 3rem;
+	text-shadow: 2px 2px 2px black;
+	margin-left: auto;
+	margin-right: auto;
+	color: #dff8eb;
+	font-weight: lighter;
+}
+h3 {
+	color: #050f1a;
+	font-weight: lighter;
+	text-shadow: 0.5px 0.5px 0.5px black;
+}
+.submitionContainer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	justify-content: center;
+}
+.buttonsContainer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	justify-content: center;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-size: 100%;
+	background: linear-gradient(rgb(241, 131, 4), rgb(30, 31, 28));
+	background-attachment: fixed;
+	text-align: center;
+	justify-content: center;
+	/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 40%, rgba(7,56,152,1) 60%, rgba(5,93,177,1) 80%, rgba(0,212,255,1) 100%); */
+}
+.same {
+	display: inline-block;
+}
+.inputs1 {
+	position: relative;
+	width: 5rem;
+}
+.chart {
+	position: relative;
+	width: 50vw;
+	height: 50vh;
+}
+button {
+	border: 0.1em solid white;
+	display: inline-block;
+	padding: 0.35em 1.2em;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 0.12em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	text-align: center;
+	transition: all 0.2s;
+	background-color: #22a7ff;
+}
+button:hover {
+	color: #000000;
+	background-color: #9b9ece;
+}
+@media all and (max-width: 30em) {
+	button {
+		display: block;
+		margin: 0.4em auto;
+	}
+}
+select {
+	background-color: #dff8eb;
+	position: relative;
+	margin-bottom: 0px;
+	font-family: "Open Sans", "Helvetica Neue", "Segoe UI", "Calibri", "Arial",
+		sans-serif;
+	font-size: 18px;
+	color: #60666d;
+	width: 11em;
+	height: 2em;
+	border-radius: 0.25em;
+}
+#selectionDiv {
+	justify-content: center;
+	text-align: center;
+}
+#btnOk {
+	margin-bottom: 0px;
+	position: relative;
+	height: 2em;
+}
+input {
+	width: 150px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	height: 3em;
+	width: 5em;
+	background-color: #dff8eb;
+	border-radius: 0.3em;
+	text-align: center;
+}
